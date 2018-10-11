@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.Common", "src\RabbitDemo.Common\RabbitDemo.Common.csproj", "{C93C3FEC-DEA5-44ED-9EA8-B53E75905293}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.RpcServer", "src\RabbitDemo.RpcServer\RabbitDemo.RpcServer.csproj", "{E5ABCA7F-D39A-4167-B473-5DE3213A5F70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.RpcClient", "src\RabbitDemo.RpcClient\RabbitDemo.RpcClient.csproj", "{5208D23D-ED0A-49B4-BD85-3509DFEDFDA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A714A8E-6071-4035-854E-A3F5B4179A56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB8C5190-92BF-49AE-A783-BE2812278775}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93C3FEC-DEA5-44ED-9EA8-B53E75905293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93C3FEC-DEA5-44ED-9EA8-B53E75905293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93C3FEC-DEA5-44ED-9EA8-B53E75905293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93C3FEC-DEA5-44ED-9EA8-B53E75905293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5ABCA7F-D39A-4167-B473-5DE3213A5F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5ABCA7F-D39A-4167-B473-5DE3213A5F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5ABCA7F-D39A-4167-B473-5DE3213A5F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5ABCA7F-D39A-4167-B473-5DE3213A5F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5208D23D-ED0A-49B4-BD85-3509DFEDFDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5208D23D-ED0A-49B4-BD85-3509DFEDFDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5208D23D-ED0A-49B4-BD85-3509DFEDFDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5208D23D-ED0A-49B4-BD85-3509DFEDFDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C93C3FEC-DEA5-44ED-9EA8-B53E75905293} = {5A714A8E-6071-4035-854E-A3F5B4179A56}
+		{E5ABCA7F-D39A-4167-B473-5DE3213A5F70} = {5A714A8E-6071-4035-854E-A3F5B4179A56}
+		{5208D23D-ED0A-49B4-BD85-3509DFEDFDA1} = {5A714A8E-6071-4035-854E-A3F5B4179A56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3788CF5-64E5-42DF-9671-9D05FA852E59}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.FanoutProducer", "src\RabbitDemo.FanoutProducer\RabbitDemo.FanoutProducer.csproj", "{AA90CC11-2A59-4B90-8ACB-CCA3102A0F90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.Common", "src\RabbitDemo.Common\RabbitDemo.Common.csproj", "{B7CEB560-67AA-4581-82D3-19CC85F6CC20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.FanoutConsumerA", "src\RabbitDemo.FanoutConsumerA\RabbitDemo.FanoutConsumerA.csproj", "{7BFFFA46-2E27-408B-8BC1-ED6DC22E1A75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.FanoutConsumerB", "src\RabbitDemo.FanoutConsumerB\RabbitDemo.FanoutConsumerB.csproj", "{52B5DF72-3F44-4B48-8965-49A2C2827EE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{159F6AD0-B25F-4CC0-8C4D-0EBE173596F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E27D550A-4AF9-471B-ADCF-93D727774D0A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA90CC11-2A59-4B90-8ACB-CCA3102A0F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA90CC11-2A59-4B90-8ACB-CCA3102A0F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA90CC11-2A59-4B90-8ACB-CCA3102A0F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA90CC11-2A59-4B90-8ACB-CCA3102A0F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CEB560-67AA-4581-82D3-19CC85F6CC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CEB560-67AA-4581-82D3-19CC85F6CC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CEB560-67AA-4581-82D3-19CC85F6CC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CEB560-67AA-4581-82D3-19CC85F6CC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFFFA46-2E27-408B-8BC1-ED6DC22E1A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFFFA46-2E27-408B-8BC1-ED6DC22E1A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFFFA46-2E27-408B-8BC1-ED6DC22E1A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFFFA46-2E27-408B-8BC1-ED6DC22E1A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B5DF72-3F44-4B48-8965-49A2C2827EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B5DF72-3F44-4B48-8965-49A2C2827EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B5DF72-3F44-4B48-8965-49A2C2827EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B5DF72-3F44-4B48-8965-49A2C2827EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA90CC11-2A59-4B90-8ACB-CCA3102A0F90} = {159F6AD0-B25F-4CC0-8C4D-0EBE173596F7}
+		{B7CEB560-67AA-4581-82D3-19CC85F6CC20} = {159F6AD0-B25F-4CC0-8C4D-0EBE173596F7}
+		{7BFFFA46-2E27-408B-8BC1-ED6DC22E1A75} = {159F6AD0-B25F-4CC0-8C4D-0EBE173596F7}
+		{52B5DF72-3F44-4B48-8965-49A2C2827EE7} = {159F6AD0-B25F-4CC0-8C4D-0EBE173596F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BED2D7E-D0AD-48CF-80BF-995D7F9588A5}
+	EndGlobalSection
+EndGlobal

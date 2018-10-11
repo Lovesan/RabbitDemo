@@ -1,0 +1,148 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build-SimpleProducer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.SimpleProducer/RabbitDemo.SimpleProducer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-SimpleConsumer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.SimpleConsumer/RabbitDemo.SimpleConsumer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-SimpleTracer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.SimpleTracer/RabbitDemo.SimpleTracer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-FanoutProducer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.FanoutProducer/RabbitDemo.FanoutProducer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-FanoutConsumerA",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.FanoutConsumerA/RabbitDemo.FanoutConsumerA.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-FanoutConsumerB",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.FanoutConsumerB/RabbitDemo.FanoutConsumerB.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-DelayedProducer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.DelayedProducer/RabbitDemo.DelayedProducer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-DelayedConsumer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.DelayedConsumer/RabbitDemo.DelayedConsumer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-DurableProducer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.DurableProducer/RabbitDemo.DurableProducer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-DurableConsumer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.DurableConsumer/RabbitDemo.DurableConsumer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-FailingConsumer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.FailingConsumer/RabbitDemo.FailingConsumer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-RpcClient",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.RpcClient/RabbitDemo.RpcClient.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-RpcServer",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/RabbitDemo.RpcServer/RabbitDemo.RpcServer.csproj"
+            ],
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+    ]
+}

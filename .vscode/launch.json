@@ -1,0 +1,212 @@
+{
+   // Use IntelliSense to find out which attributes exist for C# debugging
+   // Use hover for the description of the existing attributes
+   // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+   "version": "0.2.0",
+   "configurations": [
+        {
+            "name": "Run-SimpleProducer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-SimpleProducer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.SimpleProducer/bin/Debug/netcoreapp2.1/RabbitDemo.SimpleProducer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.SimpleProducer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-SimpleConsumer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-SimpleConsumer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.SimpleConsumer/bin/Debug/netcoreapp2.1/RabbitDemo.SimpleConsumer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.SimpleConsumer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-SimpleTracer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-SimpleTracer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.SimpleTracer/bin/Debug/netcoreapp2.1/RabbitDemo.SimpleTracer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.SimpleTracer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-FanoutProducer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-FanoutProducer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.FanoutProducer/bin/Debug/netcoreapp2.1/RabbitDemo.FanoutProducer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.FanoutProducer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-FanoutConsumerA",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-FanoutConsumerA",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.FanoutConsumerA/bin/Debug/netcoreapp2.1/RabbitDemo.FanoutConsumerA.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.FanoutConsumerA",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-FanoutConsumerB",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-FanoutConsumerB",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.FanoutConsumerB/bin/Debug/netcoreapp2.1/RabbitDemo.FanoutConsumerB.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.FanoutConsumerB",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-DelayedProducer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-DelayedProducer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.DelayedProducer/bin/Debug/netcoreapp2.1/RabbitDemo.DelayedProducer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.DelayedProducer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-DelayedConsumer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-DelayedConsumer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.DelayedConsumer/bin/Debug/netcoreapp2.1/RabbitDemo.DelayedConsumer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.DelayedConsumer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-DurableProducer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-DurableProducer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.DurableProducer/bin/Debug/netcoreapp2.1/RabbitDemo.DurableProducer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.DurableProducer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-FailingConsumer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-FailingConsumer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.FailingConsumer/bin/Debug/netcoreapp2.1/RabbitDemo.FailingConsumer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.FailingConsumer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-DurableConsumer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-DurableConsumer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.DurableConsumer/bin/Debug/netcoreapp2.1/RabbitDemo.DurableConsumer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.DurableConsumer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-RpcServer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-RpcServer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.RpcServer/bin/Debug/netcoreapp2.1/RabbitDemo.RpcServer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.RpcServer",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Run-RpcClient",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build-RpcClient",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/RabbitDemo.RpcClient/bin/Debug/netcoreapp2.1/RabbitDemo.RpcClient.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/RabbitDemo.RpcClient",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "SimpleQueue",
+            "configurations": ["Run-SimpleProducer", "Run-SimpleConsumer", "Run-SimpleTracer"]
+        },
+        {
+            "name": "Fanout",
+            "configurations": ["Run-FanoutProducer", "Run-FanoutConsumerA", "Run-FanoutConsumerB"]
+        },
+        {
+            "name": "Delayed",
+            "configurations": ["Run-DelayedProducer", "Run-DelayedConsumer"]
+        },
+        {
+            "name": "Durable",
+            "configurations": ["Run-DurableProducer", "Run-FailingConsumer", "Run-DurableConsumer"]
+        },
+        {
+            "name": "Rpc",
+            "configurations": ["Run-RpcServer", "Run-RpcClient"]
+        }
+    ]
+}

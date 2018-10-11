@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{81B2F4B3-2E9B-47E9-9FF7-3C8733A109FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.Common", "src\RabbitDemo.Common\RabbitDemo.Common.csproj", "{F0581980-0D5F-4ACE-A3D8-012367C92E24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.SimpleProducer", "src\RabbitDemo.SimpleProducer\RabbitDemo.SimpleProducer.csproj", "{0B173E23-295C-47CC-BA84-0712473C1900}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.SimpleConsumer", "src\RabbitDemo.SimpleConsumer\RabbitDemo.SimpleConsumer.csproj", "{FB821FFC-D995-46BB-9A73-22195D552109}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitDemo.SimpleTracer", "src\RabbitDemo.SimpleTracer\RabbitDemo.SimpleTracer.csproj", "{74B371F8-F812-478E-A4D2-2FA87A25308B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8BA5490-F3E9-423F-A211-F7ADD3511199}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0581980-0D5F-4ACE-A3D8-012367C92E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0581980-0D5F-4ACE-A3D8-012367C92E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0581980-0D5F-4ACE-A3D8-012367C92E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0581980-0D5F-4ACE-A3D8-012367C92E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B173E23-295C-47CC-BA84-0712473C1900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B173E23-295C-47CC-BA84-0712473C1900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B173E23-295C-47CC-BA84-0712473C1900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B173E23-295C-47CC-BA84-0712473C1900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB821FFC-D995-46BB-9A73-22195D552109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB821FFC-D995-46BB-9A73-22195D552109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB821FFC-D995-46BB-9A73-22195D552109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB821FFC-D995-46BB-9A73-22195D552109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B371F8-F812-478E-A4D2-2FA87A25308B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B371F8-F812-478E-A4D2-2FA87A25308B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B371F8-F812-478E-A4D2-2FA87A25308B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B371F8-F812-478E-A4D2-2FA87A25308B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0581980-0D5F-4ACE-A3D8-012367C92E24} = {81B2F4B3-2E9B-47E9-9FF7-3C8733A109FD}
+		{0B173E23-295C-47CC-BA84-0712473C1900} = {81B2F4B3-2E9B-47E9-9FF7-3C8733A109FD}
+		{FB821FFC-D995-46BB-9A73-22195D552109} = {81B2F4B3-2E9B-47E9-9FF7-3C8733A109FD}
+		{74B371F8-F812-478E-A4D2-2FA87A25308B} = {81B2F4B3-2E9B-47E9-9FF7-3C8733A109FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A80AB50-A77C-420B-95A5-9EFCB78A3D81}
+	EndGlobalSection
+EndGlobal
